@@ -30,8 +30,8 @@ cd shut-down
 ```
 g++ main.cpp
 ```
-you can add -o <name> to name the build
+you can add -o **<name>** to name the build
 
 ## Remember 
-- **remember to change the url to localhost or another where the request is sent**
+- **change the url to localhost or another where the request is sent**
 - **move exe file to src folder or modify path**
