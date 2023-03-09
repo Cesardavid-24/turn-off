@@ -3,7 +3,7 @@ const express = require('express')
 const cors = require('cors')
 const body_parser = require('body-parser') 
 const router = express.Router()
-const turnOff =  require('./app')
+const turnOff =  require('../../app')
 //const
 const app = express()
 const port = '3000'

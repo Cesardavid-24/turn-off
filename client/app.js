@@ -1,5 +1,5 @@
 const offBtn = document.getElementById('btn-off')
-const url = 'http://192.168.100.45:3000/signal'
+const url = 'http://localhost:3000/signal'
 const test = {signal: "OFF"}
 
 window.addEventListener('DOMContentLoaded' , () => {
@@ -20,7 +20,7 @@ const loadMessage = async (url ,data) => {
 
 // const test = { signal: "OFF" };
 // const shutDown = async () => {
-//   const response = await fetch('http://192.168.100.45:3000/signal', {
+//   const response = await fetch('http://localhost:3000/signal', {
 //     method: "POST",
 //     body: JSON.stringify(test),
 //     headers: { "Content-type": "application/json; charset=UTF-8" },
