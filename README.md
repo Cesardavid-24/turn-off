@@ -33,5 +33,4 @@ g++ main.cpp
 you can add -o **<name>** to name the build
 
 ## Remember 
-- **change the url to localhost or another where the request is sent**
-- **move exe file to src folder or modify path**
+- **change the url from localhost to your private ip from your pc where the request is sent**
